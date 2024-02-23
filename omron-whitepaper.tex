@@ -49,7 +49,7 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{{Zero Knowledge Verified Inference Network} \\
+\title{{Omron Network - Verified Intelligence} \\
 
 {\footnotesize}
 }
@@ -60,7 +60,7 @@
 {Inference Labs Inc. - \url{inferencelabs.com}}\\
 %E-mails: investor@inferencelabs.com
 }
-\IEEEauthorblockN{28 Nov 2023 (v1.0)}%, xyz i\IEEEauthorrefmark{1} and xyzi \IEEEauthorrefmark{1} and xyzz\IEEEauthorrefmark{1} and xyz\IEEEauthorrefmark{1}}
+\IEEEauthorblockN{Feb 23 2024 (v1.01)}%, xyz i\IEEEauthorrefmark{1} and xyzi \IEEEauthorrefmark{1} and xyzz\IEEEauthorrefmark{1} and xyz\IEEEauthorrefmark{1}}
 
 }
 \maketitle
@@ -80,7 +80,7 @@ The dilemma? The surge in interest in autonomous AI agents is unparalleled. Mach
 
 Over recent years, zero-knowledge cryptography has played a pivotal role in blockchain advancements for two primary reasons: (1) they enhance the scalability of compute-limited networks by handling transactions off-chain and subsequently confirming the outcomes on mainnet; and (2) they bolster user confidentiality by facilitating veiled transactions, which are only accessible to those with knowledge of the concealed details. For platforms like Ethereum, scalability can't be achieved without overburdening validators, leading to the adoption of rollups. Given the transparent nature of transactions, on-chain privacy is also essential. Beyond these, zero-knowledge cryptography ensure efficient validation of any computation, not just those linked to an off-chain EVM, revealing their broad potential beyond blockchains. The utility of zero-knowledge cryptography isn't confined to these two aspects. They also offer a third critical advantage: the efficient validation that any computation, not just those associated with an off-chain version of the EVM, has been executed accurately. This potential extends well beyond the realm of blockchains.
 
-In this paper we present zk-VIN, a decentralized protocol and network to run off-chain inference securely and verified with zero-knowledge cryptography.
+In this paper we present Omron Network, a decentralized protocol and network to run off-chain inference securely and verified with zero-knowledge cryptography.
 
 \end{abstract}
 
@@ -93,7 +93,7 @@ In the current centralized model of AI governance, significant vulnerabilities e
 
 The advent of blockchains and their transaction-based architecture, however, brings forth the challenge of Connectivity for off-chain Neural Networks.  This issue arises from the inability of blockchains to directly engage with off-chain AI Neural Networks, which are too large and computationally intensive to reside on-chain. Additionally, the current reliance on centralized processes for inference calculations in smart contracts introduces a dependency on the operators' integrity, undermining the trust and security that smart contracts are designed to offer. AI's inherent "black box" nature further complicates matters, with its concealed biases and dynamic algorithms posing a threat to system security and user assets.
 
-To address these challenges, we propose the zero-knowledge Verified Inference Network (zk-VIN), a solution that stands out in the realm of zk-ML solutions. zk-VIN is a secure, decentralized network that is chain interoperable and zk-proving system agnostic, ensuring the tamperproof integrity vital for smart contracts. Unlike existing solutions, zk-VIN operates as a wholly decentralized network, reducing reliance on any single entity and guaranteeing a secure, seamless exchange of value and operations. This framework marks a significant step towards overcoming the limitations of current blockchain-AI interactions, fostering a more secure and efficient environment for the expanding web3 community.
+To address these challenges, we propose the Omron Network, a solution that stands out in the realm of zk-ML solutions. Omron is a secure, decentralized network that is chain interoperable and zk-proving system agnostic, ensuring the tamperproof integrity vital for smart contracts. Unlike existing solutions, Omron operates as a wholly decentralized network, reducing reliance on any single entity and guaranteeing a secure, seamless exchange of value and operations. This framework marks a significant step towards overcoming the limitations of current blockchain-AI interactions, fostering a more secure and efficient environment for the expanding web3 community.
 \subsection{Rationale for AI x Web3}
 Artificial intelligence represents one of the most transformative technologies of our time. However, the full benefits of AI remain restricted to large tech firms with sufficient data and resources. This centralization limits innovation and prevents many from accessing AI's immense potential.  
 
@@ -300,22 +300,22 @@ The complexity escalates with the transition to circuit generation, where the AI
     \label{fig:Fig 4}
 \end{figure}
 
-\section{zk-VIN}
-Zero-Knowledge Verified Inference Network (zk-VIN) offers a transformative approach for AI operators seeking to transition their off-chain AI models onto blockchain networks while safeguarding their proprietary algorithms. This framework streamlines the intricate process of model conversion, enabling rapid deployment across multiple blockchain ecosystems. It serves as a seamless bridge between the off-chain world of AI and the on-chain realm, ensuring intellectual property remains veiled through the use of zero-knowledge cryptography. By providing a secure and efficient payment infrastructure, zk-VIN facilitates atomic value exchange for AI services, paving the way for a new era of autonomous AI agents interacting within the blockchain space.
+\section{Omron}
+Omron Network offers a transformative approach for AI operators seeking to transition their off-chain AI models onto blockchain networks while safeguarding their proprietary algorithms. This framework streamlines the intricate process of model conversion, enabling rapid deployment across multiple blockchain ecosystems. It serves as a seamless bridge between the off-chain world of AI and the on-chain realm, ensuring intellectual property remains veiled through the use of zero-knowledge cryptography. By providing a secure and efficient payment infrastructure, Omron facilitates atomic value exchange for AI services, paving the way for a new era of autonomous AI agents interacting within the blockchain space.
 
-For consumers of AI predictions, zk-VIN offers an additional layer of assurance by eliminating trust assumptions. They confidently rely on the network to validate inputs are processed using the correct and intended AI model, with a cryptographic guarantee of faithful execution.  As a result, consumers of AI services benefit from a transparent, trust-minimized environment where AI predictions are verified, reducing the need for blind trust in the operators' execution.
+For consumers of AI predictions, Omron offers an additional layer of assurance by eliminating trust assumptions. They confidently rely on the network to validate inputs are processed using the correct and intended AI model, with a cryptographic guarantee of faithful execution.  As a result, consumers of AI services benefit from a transparent, trust-minimized environment where AI predictions are verified, reducing the need for blind trust in the operators' execution.
 \subsection{Technical Architecture}
-To address current blockchain limitations and challenges of running on-chain Neural Networks, zk-VIN is designed to serve as a conduit between off-chain and on-chain architectures. Taking a forward-looking approach, the zk-VIN architecture is inherently modular, a design philosophy which allows each component of the system to be individually updated or replaced.
+To address current blockchain limitations and challenges of running on-chain Neural Networks, Omron is designed to serve as a conduit between off-chain and on-chain architectures. Taking a forward-looking approach, the Omron architecture is inherently modular, a design philosophy which allows each component of the system to be individually updated or replaced.
 
 \begin{figure}[!ht]
     \centering
-    \include{figures/zk-vin-overview}
-    \caption{zk-VIN Overview}
+    \include{figures/Omron-overview}
+    \caption{Omron Overview}
     \label{fig:Fig 5}
 \end{figure}
 This adaptability is a core characteristic, anticipating the need to integrate advanced AI models and alternative solutions as they emerge in the dynamic AI and blockchain landscape.
 \subsection{Off-Chain Architecture}
-\textit{Node Pools: }The off-chain infrastructure and computational power of zk-VIN is based around node pools. These pools consist of registered nodes that are assigned to process specific models' inference workloads. After registration, a model node becomes part of the available workforce. A node may service multiple models, and it is incumbent upon the node operator to ensure the successful completion of assigned tasks. Nodes pledge a certain amount of computational power and time to the network. With the computational requirements of workloads being predetermined, the network allocates tasks accordingly and does not exceed a node's capacity. A node is expected to fulfill its commitments within the epoch it is registered. Any failure to perform, or indication of unavailability, may result in penalties to the node.
+\textit{Node Pools: }The off-chain infrastructure and computational power of Omron is based around node pools. These pools consist of registered nodes that are assigned to process specific models' inference workloads. After registration, a model node becomes part of the available workforce. A node may service multiple models, and it is incumbent upon the node operator to ensure the successful completion of assigned tasks. Nodes pledge a certain amount of computational power and time to the network. With the computational requirements of workloads being predetermined, the network allocates tasks accordingly and does not exceed a node's capacity. A node is expected to fulfill its commitments within the epoch it is registered. Any failure to perform, or indication of unavailability, may result in penalties to the node.
 
 \begin{figure}[!ht]
     \centering
@@ -325,19 +325,19 @@ This adaptability is a core characteristic, anticipating the need to integrate a
 \end{figure}
 
 \subsection{Persistent Storage}
-Due to the considerable size of input and outputs from AI models, external persistent storage is required. Depending on the ultimate end use case of the output, storage within zk-VIN may not be required. An example is an NFT image generated with a diffusion model. The hash of the image can be verified and stored onchain with the image being stored on Arweave or other decentralized storage networks.
+Due to the considerable size of input and outputs from AI models, external persistent storage is required. Depending on the ultimate end use case of the output, storage within Omron may not be required. An example is an NFT image generated with a diffusion model. The hash of the image can be verified and stored onchain with the image being stored on Arweave or other decentralized storage networks.
 
 \subsection{Aggregation Circuits}
 As the complexity of a model increases, so does the size of its associated zk-circuit, resulting in larger proofs. To manage this, aggregation circuits are utilized to amalgamate multiple proofs into a singular, more concise proof that can be submitted on-chain, along with the corresponding output data. This technique also permits the batching of related inferences, enhancing efficiency and reducing the on-chain data storage footprint.
 
 \subsection{On-chain Architecture}
-The on-chain component of the zk-VIN system acts as the interface for end users and decentralized applications (dApps).  Users or dApps submit workloads, which include all necessary details like input, precommitment, and destination. This on-chain architecture consists of three main components: The Inference Market, Model Registry, and Verifier Contracts.
+The on-chain component of the Omron system acts as the interface for end users and decentralized applications (dApps).  Users or dApps submit workloads, which include all necessary details like input, precommitment, and destination. This on-chain architecture consists of three main components: The Inference Market, Model Registry, and Verifier Contracts.
 
 \subsection{Inference Market}
 The ecosystem is anchored by an Inference Market. The protocol has a native queue of AI/ML workloads. A workload can be thought of as an end to end AI/ML Inference. Each workload specifies all required details to complete it, such as input data, specific AI model for execution, output data requirements or on-chain execution. Workloads posted to the network are priced according to their computational complexity.
 
 \subsection{Model Registry}
-After circuitizing a model with the zk-VIN SDK, its creator will register it on the network. This defines the required input and output data format, computational cost of inferences on the model (proportional to cost of compute for an inference) and the verification key for use in a verification contract upon completion of each inference from the model.
+After circuitizing a model with the Omron SDK, its creator will register it on the network. This defines the required input and output data format, computational cost of inferences on the model (proportional to cost of compute for an inference) and the verification key for use in a verification contract upon completion of each inference from the model.
 
 \subsection{Model Node Pool Registration}
 In order to complete inference workloads for a model, a model node must register its intent to complete workloads for specific models. Once registered the node is added to the pool of available nodes. Nodes may be registered to service multiple models, but it is the responsibility of the operator to ensure the node completes assigned workloads.
@@ -354,7 +354,7 @@ It is the expectation a model node will complete delegated workloads during a re
 
 \subsection{Model Vetting}
 
-As zk-VIN will be an open permission-less network, no party (or even Inference Labs) can decide which models should or shouldn’t be available on the network. Instead an economic system determines how “good” a model is. This is crucial to retain an open and fair censorship free network.
+As Omron will be an open permission-less network, no party (or even Inference Labs) can decide which models should or shouldn’t be available on the network. Instead an economic system determines how “good” a model is. This is crucial to retain an open and fair censorship free network.
 
 Verified backtesting is published by the model creator and made available to the public. Users get a guarantee the model will perform a certain way under set circumstances rather than relying on blind trust in published accuracy, precision and recall values. While the provided examples may not be representative of real world use cases as it is self published by the creator, this is clearly a move in the right direction. Users also submit inferences one at a time, with no upfront commitments or complicated setup to quickly verify the usefulness of the model for their application.
 
@@ -366,11 +366,11 @@ The network implements a non-zero registration fee for models to prevent floodin
 \begin{figure}[!ht]
     \centering
     \include{figures/network-ops}
-    \caption{Overview of interaction between Consumers, Networks, zk-VIN, and Decentralized Application}
+    \caption{Overview of interaction between Consumers, Networks, Omron, and Decentralized Application}
     \label{fig:Fig 8}
 \end{figure}
 \subsection{State and Data Commitment}
-To start an inference, a commitment is made on chain by submitting the input data the inference shall be run on. This may include data from both on chain and off chain sources. This data is then attested as the input to the model when the proof and output is submitted to zk-VIN. The commitment also defines which model the data should be run on.
+To start an inference, a commitment is made on chain by submitting the input data the inference shall be run on. This may include data from both on chain and off chain sources. This data is then attested as the input to the model when the proof and output is submitted to Omron. The commitment also defines which model the data should be run on.
 
 \subsection{Workload Delegation}
 The network delegates a model node to complete the workload. A model node is selected from the node pool using a deterministic process. This provides a guarantee the inference will be completed or nodes which are unable or unavailable to complete a workload are removed from the pool.
@@ -378,19 +378,19 @@ The network delegates a model node to complete the workload. A model node is sel
 If no model node is available to complete the workload it will remain undelegated until it either expires after a set amount of time or a node is registered to complete the workload.
 
 \subsection{Inference and Proof Generation}
-Once inference details have been posted and committed to the network, it is assigned to an available node. The node then performs the inference and generates a zero knowledge proof using a pre-generated zk-circuit for the exact model snapshot. The proof is an explicit claim the output was achieved by running the precommitted data through the particular model. Proofs are then submitted to zk-VIN along with the output to be verified on-chain.
+Once inference details have been posted and committed to the network, it is assigned to an available node. The node then performs the inference and generates a zero knowledge proof using a pre-generated zk-circuit for the exact model snapshot. The proof is an explicit claim the output was achieved by running the precommitted data through the particular model. Proofs are then submitted to Omron along with the output to be verified on-chain.
 
 \subsection{Verification Contract}
 
-To ensure the integrity of on-chain AI model inferences, Verification Contracts are employed. Each AI model verified on-chain is paired with a unique verification key, which is stored within these contracts. The zk-VIN SDK is responsible for the generation and deployment of model-specific contracts alongside their corresponding circuitized AI models. The contract accepts two main inputs - a byte array containing proof data, and an array of public input/output instances. It then executes assembly code to process the proof and input data, performing cryptographic operations to verify the proof.  If the proof is valid, the contract returns 1. If invalid the transaction is reverted.
+To ensure the integrity of on-chain AI model inferences, Verification Contracts are employed. Each AI model verified on-chain is paired with a unique verification key, which is stored within these contracts. The Omron SDK is responsible for the generation and deployment of model-specific contracts alongside their corresponding circuitized AI models. The contract accepts two main inputs - a byte array containing proof data, and an array of public input/output instances. It then executes assembly code to process the proof and input data, performing cryptographic operations to verify the proof.  If the proof is valid, the contract returns 1. If invalid the transaction is reverted.
 
 \subsection{Verification and Payment Layer}
-Proofs submitted to zk-VIN are stored and verified on the app chain. Payments which were remitted and locked beforehand for the compensation of compute are then transferred to the worker which has completed the inference. Payment fees are calculated with a base rate proportional to the memory usage and compute time required to complete the off chain operations. Fees are dynamically adjusted based on overall transaction volume on the network and then further based on the demand for each model and the number of available nodes which can perform inference on said model.
+Proofs submitted to Omron are stored and verified on the app chain. Payments which were remitted and locked beforehand for the compensation of compute are then transferred to the worker which has completed the inference. Payment fees are calculated with a base rate proportional to the memory usage and compute time required to complete the off chain operations. Fees are dynamically adjusted based on overall transaction volume on the network and then further based on the demand for each model and the number of available nodes which can perform inference on said model.
 
-Royalties will be remitted to model creators based on a preset fee for model usage (either percentage or flat rate based) each time a model is used for inference within zk-VIN. Protocol fees will be remitted on each transaction to support the overall development and ecosystem of zk-VIN.
+Royalties will be remitted to model creators based on a preset fee for model usage (either percentage or flat rate based) each time a model is used for inference within Omron. Protocol fees will be remitted on each transaction to support the overall development and ecosystem of Omron.
 
 \subsection{Execution Layer}
-Output from inferences are executed in one of the following places. Directly on zk-VIN via deployed smart contracts. This option has the lowest fees and fastest execution time. The second option is to rollup the inference output, have a dapp smart contract on any other chain interpret the output and perform an on chain action based on the results. This could be anything from a swap to a DAO administrative action.
+Output from inferences are executed in one of the following places. Directly on Omron via deployed smart contracts. This option has the lowest fees and fastest execution time. The second option is to rollup the inference output, have a dapp smart contract on any other chain interpret the output and perform an on chain action based on the results. This could be anything from a swap to a DAO administrative action.
 
 The decision between the two options is up to the application developer and will be determined based on the specifics of the end use case.
 
@@ -406,12 +406,12 @@ Input data, output data and proofs of AI execution are large and expensive to st
 \hline Polygon & 0.08MATIC (gas@125gwei) & $\$ 0.048$ USD \\
 \hline BNB Smart Chain & 0.0032BNB (gas@0.5gwei) & $\$ 0.71$ USD \\
 \hline Arweave & 0.00021 AR & $\$ 0.001$ USD \\
-\hline zk-VIN (estimated) & 0.0032VIN (gas@0.5gwei) & $<\$0.01$ USD (targeted) \\
+\hline Omron (estimated) & 0.0032VIN (gas@0.5gwei) & $<\$0.01$ USD (targeted) \\
 \hline
 \end{tabular}
 
 \vspace{4mm}
-Gas fees across networks are inconsistent and unpredictable. In contrast to an L2, it can cost 100-1000x on ethereum L1 to verify and store a proof and this can vary depending on network traffic. While fluctuations in the cost cannot be eliminated, they can be minimized by using zk-VIN as a data availability layer for proof storage.
+Gas fees across networks are inconsistent and unpredictable. In contrast to an L2, it can cost 100-1000x on ethereum L1 to verify and store a proof and this can vary depending on network traffic. While fluctuations in the cost cannot be eliminated, they can be minimized by using Omron as a data availability layer for proof storage.
 
 In cases of private models the raw computations (end to end method to achieve output from an input) may not be repeatable in full by any node on the network as not all data will be available to each node. Inputs for inferences may be hashed or obscured publicly and proprietary models will remain private. The verification keys and proofs must exist on chain to confirm the validity of the output from the models.
 
@@ -422,10 +422,10 @@ Computational cost will be calculated in Gb-Sec which is the amount of CPU, RAM 
 As the complexity of dapps and protocols increase, the complexity and cost of managing and maintaining these applications also increases. Web3 teams are already faced with challenges in managing multi-chain applications, adding zero knowledge and machine learning only increases complexity further. A solution which reduces the complexity and domain knowledge required to deliver and operate an application will be crucial to the long term success of the space.
 
 \subsection{Upgradability}
-Technical sovereignty is a fundamental requirement as the state of AI is rapidly developing. zk-VIN will require frequent upgrades and migrations to include new features and improvements. There must be a clear path for users to migrate their assets between versions in a trustless fashion and easily migrate any dapps to the latest version.
+Technical sovereignty is a fundamental requirement as the state of AI is rapidly developing. Omron will require frequent upgrades and migrations to include new features and improvements. There must be a clear path for users to migrate their assets between versions in a trustless fashion and easily migrate any dapps to the latest version.
 
 \subsection{Reputation System}
-The zk-VIN network is set to incorporate a comprehensive Reputation System, designed to enhance transparency and accountability among AI Model providers and computational nodes while providing the benefits of being censorship resistant. This system is structured to capture and disseminate feedback from consumers, granting them the ability to make informed decisions based on the aggregated performance data of AI Model operators. The core of this system will be the Validator Reports, which are expected to be a critical element in establishing and maintaining the credibility of AI Model reputations.
+The Omron network is set to incorporate a comprehensive Reputation System, designed to enhance transparency and accountability among AI Model providers and computational nodes while providing the benefits of being censorship resistant. This system is structured to capture and disseminate feedback from consumers, granting them the ability to make informed decisions based on the aggregated performance data of AI Model operators. The core of this system will be the Validator Reports, which are expected to be a critical element in establishing and maintaining the credibility of AI Model reputations.
 
 Within this framework, the Reputation System will track and publicize a variety of metrics, available both on-chain for smart contract interactions and off-chain for in-depth analysis. Key performance indicators for AI Model operators will include:
 
@@ -444,7 +444,7 @@ $F=\displaystyle \frac{V_{\text {complicated}}}{V_{\text {assigned}}}:$ A tally 
 Fulfilment rate ($F$)
 Validation Score $\left(S^{\prime}\right)$ :
 $S_{\text {accepted }}$ : Total number of accepted requests for validation by the consensus mechanism.
-$S=\displaystyle \frac{S_{\text {accepted }}}{V_{\text {completed }}}$ : A ratio of the requests validated by zk-VIN consensus mechanisms, providing a measure of the Al Model's authenticity and accuracy.
+$S=\displaystyle \frac{S_{\text {accepted }}}{V_{\text {completed }}}$ : A ratio of the requests validated by Omron consensus mechanisms, providing a measure of the Al Model's authenticity and accuracy.
 
 Response Time $\left(I^{\prime}\right)$ :
 $$
@@ -474,12 +474,12 @@ $$
 
 Here, $w_1, w_2, w_3, w_4$ and $w_5$ are the weights assigned to each factor, and $T_{\text {normalized }}$ and $P_{\text {normalized }}$ are the normalized response time and penalty ratios.
 
-These metrics are aimed at fostering a positive feedback loop where high-reputation services are naturally driven to maintain exceptional standards of service. Negative feedback and financial penalties pose substantial risks to an operator's market standing, thereby creating strong incentives for consistent, high-quality performance. The zk-VIN Reputation System is envisioned as a pivotal component in promoting a self-reinforcing cycle of identifying AI models with high standings while motivating them to uphold credibility and superior performance within the ecosystem.
+These metrics are aimed at fostering a positive feedback loop where high-reputation services are naturally driven to maintain exceptional standards of service. Negative feedback and financial penalties pose substantial risks to an operator's market standing, thereby creating strong incentives for consistent, high-quality performance. The Omron Reputation System is envisioned as a pivotal component in promoting a self-reinforcing cycle of identifying AI models with high standings while motivating them to uphold credibility and superior performance within the ecosystem.
 
 \subsection{Cross Chain Communication}
-Cross-chain communication is a fundamental aspect of the zk-VIN architecture, allowing disparate blockchain networks to interact and share information. This interoperability is crucial for creating a more connected and functional decentralized inference ecosystem.
+Cross-chain communication is a fundamental aspect of the Omron architecture, allowing disparate blockchain networks to interact and share information. This interoperability is crucial for creating a more connected and functional decentralized inference ecosystem.
 
-Many base chain and scalability platforms offer chain development kits (CDKs) that are designed to be highly modular and adaptable, enabling the construction and integration of diverse blockchain ecosystems.  zk-VIN will roll out a application-specific chain to meet the needs of AI Operators such as support for larger contracts (could run up to MB in size), data availability, and tokenomics all while leveraging shared validators and inheriting chain security. Additionally, the EVM can be upgraded to support additional cryptographic primitives to ensure compatibility with future zk proving systems. 
+Many base chain and scalability platforms offer chain development kits (CDKs) that are designed to be highly modular and adaptable, enabling the construction and integration of diverse blockchain ecosystems.  Omron will roll out a application-specific chain to meet the needs of AI Operators such as support for larger contracts (could run up to MB in size), data availability, and tokenomics all while leveraging shared validators and inheriting chain security. Additionally, the EVM can be upgraded to support additional cryptographic primitives to ensure compatibility with future zk proving systems. 
 
 For AI models, cross-chain communication methods provide a seamless way to distribute verified outputs across different networks, ensuring that the value generated on one chain can be recognized and utilized on another. With the growth of decentralized finance (DeFi), non-fungible tokens (NFTs), and other blockchain-based innovations, operating across chains is becoming the standard requirement for new projects in the space. The low cost and secure nature of these cross-chain communications protocols ensure they are accessible to a wide range of projects, from small startups to large enterprises, furthering the vision of an interoperable and open Web3 ecosystem.
 
@@ -495,7 +495,7 @@ For AI models, cross-chain communication methods provide a seamless way to distr
 \subsection{Reverse Engineering Risk}
 \noindent \textbf{IP Replication Risk}
 
-One of the most valuable aspects of zk-VIN is the aggregation of inferences. Having a clear picture of how often and by whom models are being utilized is a whole industry on its own. However this may create a new form of IP risk yet to be seen at scale. With a sufficient set of inputs to outputs from a particular model, a sophisticated 3rd party could train a similar or competing model using published data.\endnote{There are examples of "model extraction attacks" using public APIs showing this is a valid threat vector.  Orekondy et al. "Knockoff Nets: Stealing Functionality of Black-Box Models".\url{https://arxiv.org/abs/1812.02766
+One of the most valuable aspects of Omron is the aggregation of inferences. Having a clear picture of how often and by whom models are being utilized is a whole industry on its own. However this may create a new form of IP risk yet to be seen at scale. With a sufficient set of inputs to outputs from a particular model, a sophisticated 3rd party could train a similar or competing model using published data.\endnote{There are examples of "model extraction attacks" using public APIs showing this is a valid threat vector.  Orekondy et al. "Knockoff Nets: Stealing Functionality of Black-Box Models".\url{https://arxiv.org/abs/1812.02766
 }}
 Similar approaches have been seen by crowdsourcing prompt to response datasets from ChatGPT and then fine tuning GPTv2 to achieve surprisingly good results.
 
@@ -503,7 +503,7 @@ It's important to note that this risk isn't exclusive to zk-ML but applies to an
 
 Finally one must ask, does this even matter? What number of inferences are required to create a model which is comparable to the original? 1M? 1B? Obviously this will depend on the model and end use case but the answer is likely within one order of magnitude from the original dataset. Also a sufficient amount of the underlying model architecture must also be gleaned or approximated. Further, this phenomenon creates additional market pressure to continually improve models with the knowledge a competitor is working to surpass others who can (and will) leverage all available materials.
 
-This problem is not unique to the implementation of zk-VIN, general zk-ML nor its use. This is a systemic issue for any AI product transparently executing inferences regardless of their tech stack or method of delivery, even in cases where execution is unverified.
+This problem is not unique to the implementation of Omron, general zk-ML nor its use. This is a systemic issue for any AI product transparently executing inferences regardless of their tech stack or method of delivery, even in cases where execution is unverified.
 
 \noindent \textbf{Public Verification Key}
 
@@ -526,23 +526,23 @@ zk-SNARKS and zk-STARKS are exemplary cases in point. These cryptographic protoc
 
 \clearpage
 \section{Conclusion}
-The Zero-Knowledge Verified Inference Network (zk-VIN) presents a comprehensive solution to the challenges of integrating AI and blockchain technology. It provides a decentralized protocol that enables secure, off-chain AI model inferences while preserving intellectual property through zero-knowledge cryptography. This innovative approach not only enhances privacy and security but also ensures the integrity and authenticity of AI models. The zk-VIN architecture is designed to be modular and adaptable, supporting rapid deployment across multiple blockchain ecosystems. This work reflects a significant step towards realizing a decentralized, secure, and privacy-preserving foundation for AI-enhanced blockchain systems, potentially revolutionizing the way AI operates in the blockchain space and contributing to the broader adoption of web3 technologies.
+The Omron Network presents a comprehensive solution to the challenges of integrating AI and blockchain technology. It provides a decentralized protocol that enables secure, off-chain AI model inferences while preserving intellectual property through zero-knowledge cryptography. This innovative approach not only enhances privacy and security but also ensures the integrity and authenticity of AI models. The Omron architecture is designed to be modular and adaptable, supporting rapid deployment across multiple blockchain ecosystems. This work reflects a significant step towards realizing a decentralized, secure, and privacy-preserving foundation for AI-enhanced blockchain systems, potentially revolutionizing the way AI operates in the blockchain space and contributing to the broader adoption of web3 technologies.
 
 As we progress we will maintain a strong focus on upholding these fundamental principles:
 
 \noindent \textbf{Decentralization and Democratization of AI}
 
-zk-VIN aims to enable the decentralization and democratization of AI, aligning with core Web3 values. By facilitating privacy-preserving and verifiable AI services on public blockchains, zk-VIN makes advanced AI accessible beyond large tech firms with proprietary data silos. This expands opportunities for innovation, collaboration, and value creation with AI systems operated transparently on open networks.
+Omron aims to enable the decentralization and democratization of AI, aligning with core Web3 values. By facilitating privacy-preserving and verifiable AI services on public blockchains, Omron makes advanced AI accessible beyond large tech firms with proprietary data silos. This expands opportunities for innovation, collaboration, and value creation with AI systems operated transparently on open networks.
 
 \noindent \textbf{Developer experience centric modular system design}
 
-With a focus on simplicity and modular architecture, zk-VIN streamlines the integration of cryptographically verified AI into decentralized applications. The system design centers on enhancing the developer experience through abstraction of complex zero-knowledge cryptography and seamless blockchain interoperability (zk-ML). Cost-reduction and flexibility are built into the core framework to accommodate rapid evolution in the AI and blockchain landscape.
+With a focus on simplicity and modular architecture, Omron streamlines the integration of cryptographically verified AI into decentralized applications. The system design centers on enhancing the developer experience through abstraction of complex zero-knowledge cryptography and seamless blockchain interoperability (zk-ML). Cost-reduction and flexibility are built into the core framework to accommodate rapid evolution in the AI and blockchain landscape.
 
 \noindent \textbf{Open source protocol for secure and composable systems}
 
-As an open source protocol, zk-VIN fosters transparency, collective ownership, and community-driven development. Following the ethos of permissionless innovation, zk-VIN creates infrastructure for AI-enhanced dApps to compose securely with minimal trust. By combining verified AI and blockchain building blocks within an open ecosystem, zk-VIN aspires to be a public good facilitating the creation of services with embedded privacy, security and autonomy.
+As an open source protocol, Omron fosters transparency, collective ownership, and community-driven development. Following the ethos of permissionless innovation, Omron creates infrastructure for AI-enhanced dApps to compose securely with minimal trust. By combining verified AI and blockchain building blocks within an open ecosystem, Omron aspires to be a public good facilitating the creation of services with embedded privacy, security and autonomy.
 
-In summary, zk-VIN implements the responsible and ethical application of AI within Web3 by making artificial intelligence both decentralized while protecting value creation. Through it’s innovative technical architecture and commitment to openness, zk-VIN seeks to lay the foundations for the next generation of AI-powered decentralized applications.
+In summary, Omron implements the responsible and ethical application of AI within Web3 by making artificial intelligence both decentralized while protecting value creation. Through it’s innovative technical architecture and commitment to openness, Omron seeks to lay the foundations for the next generation of AI-powered decentralized applications.
 
 \newpage
 

@@ -1,11 +1,11 @@
 
-# Zero Knowledge Verified Inference Network
+# Omron Network - Verified Intelligence
 
 ## Overview
 This repository contains the LaTeX source code for our whitepaper. This document presents a comprehensive analysis of our plans to build a network solely for verified artificial intelligence inferences and operations.
 
 ## File Structure
-- `zk-vin-whitepaper.tex`: The main LaTeX file that compiles the entire whitepaper.
+- `omron-whitepaper.tex`: The main LaTeX file that compiles the entire whitepaper.
 - `figures/`: Directory containing figures and images used in the whitepaper.
 
 ## Prerequisites
@@ -15,7 +15,7 @@ To compile this whitepaper, you need a LaTeX distribution such as TeX Live, MiKT
 To compile the whitepaper, run the following commands in the terminal:
 
 ```
-pdflatex zk-vin-whitepaper
+pdflatex omron-whitepaper
 ```
 
 ## Contributing
